@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mackie Lacang | Fullstack Developer</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./assest/ml-logo.jpg" alt="Mackie Lacang" class="logo">
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact Me</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <section class="hero">
+        <img src="./assest/hero-pic.jpg" alt="Mackie-Lacang" loading="lazy" class="hero-img" />
+        <div class="bio">
+            <h3 class="bio-title">"Hello, I'm"</h3>
+            <h1 class="bio-name">Mackie Lacang</h1>
+            <p class="bio-text">
+
+                "Fullstack Developer"  
+            </p>
+            <button class="btn btn-color-2" onclick="window.open('MACKIE ALLEN Lacang.pdf')">Download Cv </button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Me </button>
+        </div>
+    </section>
+
+    <section class="more-about" id="about">
+        <h2>About</h2>
+        <div class="pic-container">
+            <img src="./assest/about-pic.jpg" alt="faceimage" class="about-pic">
+        </div>
+        <div class="about-details">
+            <div class="details-container">
+                <img src="./assest/aboutimage.png" alt="about icon" class="about-icon" />
+                <h3>Experience</h3>
+                <p>4+ Yrs <br>Office Staff</p>
+            </div>
+            <div class="details-container">
+                <img src="./assest/education_logo-removebg-preview.png" alt="education icon" class="about-icon" />
+                <h3>Education</h3>
+                <p>Full Stack Developer <br>Uplift Bootcamp</p>
+            </div>
+        </div>
+        <p class="about-text">
+            As for me staying updated with the latest trends and technologies is crucial. I am a firm believer in continuous
+            learning, regularly participating in online courses, attending workshops, and contributing to open-source projects.
+            Platforms like GitHub have been instrumental in showcasing my projects, collaborating with other developers, and
+            refining my coding practices.
+        </p>
+        <p class="about-text">
+            Looking ahead, I am eager to delve deeper into advanced topics like cloud computing, DevOps, and microservices
+            architecture. Understanding these areas will enable me to build more scalable, efficient, and robust applications. My
+            goal is to become a versatile full stack developer capable of handling complex projects and contributing innovative
+            solutions to the tech community
+        </p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skill-header">Skills</h2>
+    
+        <div class="skills-wrapper">
+            <div class="first-set">
+                <img src="./assest/html5-removebg-preview.png" alt="HTML5" loading="lazy" class="icon icon-card" />
+                <img src="./assest/css3-removebg-preview.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assest/javascript-logo.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+    
+            <div class="second-set">
+                <img src="./assest/react-removebg-preview.png" alt="React" loading="lazy" class="icon icon-card" />
+                <img src="./assest/Java-Logo-removebg-preview (1).png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assest/nodejs-removebg-preview.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="./assest/my-profolio.PNG" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">My Portfolio</h3>
+                <p class="project-details">
+                    This is my First Portfolio made on my Bootcamp days
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="./assest/unknown-image.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Unknwon</h3>
+                <p class="project-details">
+                    Reserve for the Future Projects
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="./assest/unknown-image.jpg" alt="greeny-earth" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Unknwon</h3>
+                <p class="project-details">
+                    Reserve for the Future Projects
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="mailto:irsmackie@gmail.com" method="get">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+                            required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                            class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="socials">
+        <a href="https://x.com/LacangMackie" target="_blank"><img src="./assest/twitter-logo.png" alt="Twitter" loading="lazy"
+                class="socicon" /></a>
+        <a href="https://www.instagram.com/mackielacang/" target="_blank"><img src="./assest/instagram-logo.jpg" alt="Instagram" loading="lazy"
+                class="socicon" /></a>
+        <a href="https://www.linkedin.com/login" target="_blank"><img src="./assest/linkedin-logo.png" alt="Linkedin" loading="lazy"
+                class="socicon" /></a>
+        <a href="https://gitlab.com/" target="_blank"><img src="./assest/gitlab-removebg-preview.png" alt="Github" class="socicon" /></a>
+    </div>
+s
+        <i class="scroll-up" id="scroll-up"><img src="./assest/arrow-up.gif" class="socicon up-arrow"
+            alt="scroll-up" />
+        </i>
+
+    <footer>
+        <section class="contactme" class="contact" >
+            <div class="containerinfo">
+                <div class="box">
+                    <div class="contactme"><img src="./assest/map-logo.png" alt="Map"></div>
+                    <div class="text">
+                        <h3>
+                            Address
+                        </h3>
+                        <p>
+                            Cavite,Philippines
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contactme"><img src="./assest/phone-logo.jpg" alt="Phone"></div>
+                    <div class="text">
+                        <h3>
+                            Phone#
+                        </h3>
+                        <p>
+                            09294065613
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contactme"><img src="./assest/mail-logo.png" alt="Mail"></div>
+                    <div class="text">
+                        <h3>
+                            Email
+                        </h3>
+                        <p>
+                            <a href="mailto:irsmackie@gmail.com"> irsmackie@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
